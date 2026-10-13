@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF2F8"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Notre Catalogue"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#163A5F"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Produit 1 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="👟"
+                android:textSize="45sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Produit 1 : Chaussures"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#163A5F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnProduit1"
+                android:text="Acheter"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Produit 2 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="🎧"
+                android:textSize="45sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Produit 2 : Écouteurs"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#163A5F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnProduit2"
+                android:text="Acheter"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Produit 3 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="⌚"
+                android:textSize="45sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Produit 3 : Montre"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#163A5F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnProduit3"
+                android:text="Acheter"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Produit 4 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="🎒"
+                android:textSize="45sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Produit 4 : Accessoires"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#163A5F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnProduit4"
+                android:text="Acheter"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Produit 5 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="💄"
+                android:textSize="45sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Produit 5 : Cosmétiques"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#163A5F"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnProduit5"
+                android:text="Acheter"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
